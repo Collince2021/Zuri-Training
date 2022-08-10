@@ -96,14 +96,13 @@ margin-left:-90%;
 top:0;
 }*/
 /*style navigation bar*/
-.navigaton{
-  position:fixed;
-  top:0;
-  width:100%;
+.navigation{
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding:3em;
+  position:fixed;
+  top:0;
+  width:100%;
 }
 @media (max-width:1000px){.nav-list{display: none;} }
 .nav-list ul{
