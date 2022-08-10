@@ -1,3 +1,7 @@
+/*for all*/
+button{
+border:none;
+max-width:100px;}
 html, body {
   height: 100%;
   width: 100%;
@@ -9,6 +13,11 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
+/*style navigation*/
+.navigate{
+position:top;
+width:100%;
+padding:4em;}
 /*styling second section*/
 .second-section1{
   margin:0px;
