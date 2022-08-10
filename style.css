@@ -15,7 +15,8 @@ html, body {
 }
 /*style navigation*/
 .navigate{
-position:top;
+position:fixed;
+  top:0;
 width:100%;
 padding:4em;}
 /*styling second section*/
