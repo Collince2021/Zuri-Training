@@ -1,4 +1,6 @@
-
+body,html{
+width:100%;
+height:100%;}
 :root{
   --fs-bd:1rem;
   --fs-head1:1.5rem;
