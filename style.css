@@ -189,7 +189,7 @@ body{
 /*styling second section*/
 
 .second-section2{
-  margin: 0 auto;
+  margin: 0 auto !important;
 text-align: center;
 
 }
@@ -225,7 +225,7 @@ text-align: center;
 
 .third-section{
   text-align:center;
-  margin:0 auto;
+  margin:0 auto !important;
 }
 .third-section1,.third-section2,.third-section3{
   margin-left: 1.4em;
