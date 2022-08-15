@@ -1,101 +1,35 @@
-/*for all*/
-button{
-border:none;
-max-width:100px;}
-html, body {
-  height: 100%;
-  width: 100%;
-  background-color:#fffdf5;
-  
-}
-*,*::before,*::after{
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/*styling second section*/
-.second-section1{
-  margin:0px;
-  
-}
-@media(max-width:1199px)
-{
-  .sect-last{
-    display:none;
-    margin:0%;
-  }
-  .second-section1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .second-section2{
-    display:flex;
-    align-content:center;
-    margin-right:-90%;
-padding: 10%;
 
-    
-  }
-  .small{
-    font-size:1rem;
-  }
-}
-@media (min-width:1200px)
-{
-  .second-section{
-    display:flex;
-    align-items: center;
-  }
-}
-.second-section2{
-text-align: center;
-  display:flex;
-  flex-direction: column;
-justify-content:center;
-margin-left:-90%;
-  margin-top:0%;
- }
-.image1{
-  display: flex;
-}
-@media (max-width:700px){.image1{display:none;}}
-.image2{
-  display:flex;
-  justify-content: flex-end;
-  margin:20px;
+:root{
+  --fs-bd:1rem;
+  --fs-head1:1.5rem;
+  --fs--head2:1.2rem;
+  --fs--head3:1rem;
+
+  --fw-normal:300;
+  --fw-bold:900;
+
+  --bs:2px 2px 1px white,
+        1px 1px white;
 }
 
-.buttondiv{
-  display: flex;
-  justify-content: center;
+@media (min-width:700px)
+{
+:root{
+  --fs-bd:1.5rem;
+  --fs-head1:4.5rem;
+  --fs--head2:3.5rem;
+  --fs--head3:2.5rem;
 }
-.enroll{
-    background-color:#e7332b ;
-  border-radius: 30px;
-  height:100%;
-  width:30%;
-  color:#ffffff;
-  border:none;
-  padding:10px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}  
-.wire{
- display:flex;
-  justify-content: right;
-  margin-left:-20px;
-  }
-.pink-para{
-  color:#e7332b;
 }
-/*.navigate{
-  position: fixed;
-  width:100%;
-top:0;
-}*/
+
 /*style navigation bar*/
+.nav-btn button{
+  background-color:#e7332b;
+ border-radius:10px;
+padding:0.9em;
+  color:#fff;
+  border:none;
+}
 .navigation{
   display: flex;
   flex-direction: row;
@@ -104,431 +38,688 @@ top:0;
   top:0;
   width:100%;
 }
-@media (max-width:1000px){.nav-list{display: none;} }
+
+.navigate{
+  margin-bottom: 10em;
+}
+
+@media (max-width:1000px){
+  .nav-list{display: none;} }
 .nav-list ul{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  list-style-type: none;
+   list-style-type: none;
   max-width: 1024px;
-  margin: 20px;
- 
+  margin: 20px; 
+}
+
+@media (min-width:1000px){
+  .logo-zuri{
+  width:50%;
+}
+}
+
+.logo-zuri{
+  width:35%;
 }
 
 .list1{
-   padding:10%;
+   padding:1.5em;
    }
+
+@media (max-width:900px){
+  /*style tenth section*/
+
+  .move{display:none;}
+
+  .path3{margin-bottom:4em;}
+  
 .button-nav{
   display:flex;
+  margin:10px;
+  padding:0;
+  align-items: center;
+  margin-left: -300px;
   }
+  
 .thumb{
   width:20%;
   border-radius:50%;
   border: 1px solid rgba(0,0,0,.1);
+  background-color:#e7332b;
+  position:relative;
+  z-index:100;
+  padding:0.5em;
 }
-.nav{
-  border-radius:10px;
+
+.nav-btn{
+   margin-left:-10em;
 }
-/*styling third section*/
-.third-section{
-  margin:20px;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:center;
+
+/*style section 2*/
+
+.wire1-size{
+  width: 30%;
 }
-/*styling fourth section*/
-.fourth-section1{
-  margin-right: 20%;
-  margin-left:30%;
+
+.wire{
+  display:flex ;
+  justify-content: center;
+  margin-left: 8.5em;
+  margin-bottom: 2.5em;
 }
-.fourth-section-section2{
-  display:flex;
+
+.image1,.sect-last{
+  display: none;
 }
-.pink-h2{
-  color:#e7332b;
-  font-size:1.5rem;
+
+.wrimg{
+  width: 10%;
 }
-.h1-para{
-  font-size: 2rem;
-  font-weight: 800;
+
+.image2{
+  display: flex;
+  justify-content: center;
+  margin-top: -4em;
+  margin-right: -10em;
+  margin-bottom: 7em;
 }
-@media (min-width:879px) and (max-width:899px){
-  .fourth-section-section2{
-  display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-}
-@media (max-width:878px){
+
+  /*style section 4*/
+
   .star{
     display: none;
   }
-  .fourth-section3-flex{
-    display: none;
-  }
-}
-/*styling fifth section*/
-@media (max-width:899px){
   
-  div.fifth-section .fifth-sectionh2{font-size:1.5rem;}
-    }
+}
 
-.two{
-  border-radius: 10px;
-  margin:10px;
-  max-height: 800px;
-  line-height: 1.6;
-  padding-bottom:20px;
+/*general style*/
+
+.head-tp,.head4-para,.head2{
+  font-size: var(--fs-head1);
+  font-weight: var(--fw-bold);
 }
-.fifth-section img{
-  width: 25%;
-  height: 20%;
-}
-.img{
-  display: flex;
-  justify-content: flex-end;
-}
+
 .white{
-  color:#ffffff;
-  margin-bottom: 30px;
-  }
-.fifth-section1{
-  background-color:#e7332b ;
-   
+  color:white !important;
 }
-.section-center{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-   
-  }
-.number{
-  font-size:2.5rem;
-  font-weight: 900;
-  margin-bottom: 20px;
-   }
-.black{
-  color:rgb(0,0,0);
-  margin-bottom: 20px;
- }
-/*.bottom-margin{
-   margin-bottom: 20px;
-  margin-top:0;
-}*/
-.fifth-sectionh2{
-  font-size: 2rem;
-  font-weight: 800;
-}
-@media (min-width:900px){
-  .fifth-section{
-    display: grid;
-   grid-template-columns: 1fr 1fr;
-}}
-  /*styling seventh section*/
-.seventh-section{
-  background-color:#e7332b;
-  padding:30px;
-}
-.seventh-section1-top-img{
-  display:flex;
-  justify-content: flex-end;
-  padding-right:200px;
-  padding-left: 0;
-  padding-top:50px;
-  padding-bottom: 0;
-}
-.margin0{
-  margin:0;
-}
-.head2{
-  font-size:2rem;
-  font-weight:900;
-}
-.marginTop{
-  margin-top:40px;
-}
-.btnsection5{
-  padding:15px;
-  border-radius:30px;
-    margin-bottom:20px;
-  border:none;
-  color:#e7332b;
-}
-.seventh-section1-bottom{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin:20px;
-}
-/*div.border {
-  border:1px solid #ffffff;
-  border-radius:30px ;
-  padding: 10px;
-  width: 100px;
-  margin:20px;
+/*.navigate,.second-section,.third-section,.fourth-section{
  
 }*/
 
-/*div.border img{
-  width:40%;
-  height: 40%;
-  }*/
-.seventh-section2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.white{
+  color:white;
 }
-.fun {
-  border-radius:30px;
-  padding: 10px;
-  border:1px solid #ffffff;
-  display: flex;
-  flex-direction: row;
- align-items: center;
-  justify-items: center;
-  background-color:#e7332b;
-  margin: 20px;
-  text-align: center;
- }
-@media (min-width:1200px)
-{
-  .seventh-section {
-    display:flex;
-  }
-}
-.fun >p{margin:5px;}
-/*styling eigth section*/
-.eighth-section .ul-flex{
-  display:flex;
-  list-style-type:none;
-  margin:25px 10px;
-  
-  }
-.eighth-section img{
-  width:40%;
-}
-.head3{
-  font-size:1rem;
-  font-weight:600;
-}
-.eighth-section .ul-flex .list-item{
-  margin-right:-10px;
-    }
-.eighth-section p{
-  margin-bottom:25px;
-}
-.section8-arrow{
- margin-left:28%;
-  margin-bottom:5px;
-}
-.eight{
-  background-color:;
-  border-radius:30px;
-  margin:20px;
-  border:1px solid #ffffff;
-}
-@media (min-width:900px){
-  .eightctn{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-  }
-}
-.eighth-section >p:nth-of-type(1){
-  margin-top:50px;
-  margin-bottom: 0;
+
+
+hr{
+  width: 90%;
+  margin:4em auto;
   
 }
-/*styling nineth section*/
-.nineth-section{
-  margin:30px;
+
+img{
+  display:block;
+  max-width: 100%;
 }
-.bottom1{
-  display:flex;
-  margin:0;
-  padding:5px;
-  border:1px solid rgba(0,0,0,.6);
-  width:100%;
-  height:28%;
-  overflow: hidden;
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: var(--fs-bd);
+  line-height: 1.3;
+  background-color:rgba(255,253,245,255)
+ ; 
+}
+
+.pink-para,.pink-head{
+  color:#e7332b;
+  opacity:.9;
+}
+
+/*styling second section*/
+
+.second-section2{
+  margin: 0 auto;
+text-align: center;
 
 }
+
+.para-div1{
+  margin-bottom: .6em;
+}
+
+.para-div2{
+  font-size: var(--fs-head1);
+  font-weight: var(--fw-bold);
+  margin-left: .7em;
+  margin-right: .7em;
+}
+
+.para-div3{
+  line-height: 1.5em;
+  letter-spacing: 2px;
+  color:rgba(0,0,0,0.8);
+}
+.buttondiv button{
+  letter-spacing: 4.2px;
+  padding: 1em;
+  border-radius: 1.9em;
+  border: none;
+  margin: 4em auto;
+  background: #e7332b;
+  color: white;
+  font-size:var(--fs--head3) ;
+}
+
+/*style third section*/
+
+.third-section{
+  text-align:center;
+  margin:0 auto;
+}
+.third-section1,.third-section2,.third-section3{
+  margin-left: 1.4em;
+  margin-right: 1.4em;
+  margin-top:2em;
+  margin-bottom: 2em;
+
+
+}
+
+.third-section-para{
+  line-height: 1.5;
+  color:rgba(0,0,0,0.8)
+}
+
+/*style fourth section*/
+
+.wire3-img{
+  width: 15%;
+}
+
+.fourth-section{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 4em;
+}
+
+
+.fourth-section1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5em;
+}
+
+/*style fifth section*/
+
+.img-curve{
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+  .fifth-section{    background:rgba(254,231,227,255);
+/*margin:2em .5em;*/
+padding:.4em;
+  }
+
+.two{
+  margin:2em 0;
+}
+
+.fifth-section1{
+  background:rgba(231,51,43,255);
+}
+
+.section-center{
+  padding:3em;
+}
+
+.two{
+  margin:2em .9em;
+  border-radius:2em;
+}
+
+.number{
+  font-size:3rem;
+  font-weight:var(--fw-bold);
+  letter-spacing:3;
+  margin-bottom:.8em;
+}
+
+.fifth-sectionh2{
+  font-size:1.5rem;
+  font-weight:800;
+  margin-bottom:.9em;
+}
+
+.bottom{
+  margin-bottom:1.1em;
+  line-height:1.5;
+}
+
+/*.fifth-section1{
+  margin-top:3em;
+}*/
+
+.fifth-section6{
+  margin-bottom:-.1em; 
+}
+
+.fifth-section2,.fifth-section3,.fifth-section4,.fifth-section5,.fifth-section6{
+  background:white;
+}
+
+/*style seventh section*/
+
+.seventh-section2{
+  background: url("https://training.zuri.team/dotsection5.svg");
+background-position: bottom left;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  padding-bottom: 4em;
+
+}
+.seventh-section{
+  background-color: #e7332b !important;
+  margin:7.5em 0;
+  margin-bottom: 8em !important;
+  padding:1.5em;
+}
+
+  .margin0{
+    margin-bottom:1.5em;
+  }
+
+.last-para{
+  line-height: 1.2;
+  margin-bottom: 2em;
+}
+
+.btnsection5{
+  background-color: white;
+  color: #e7332b;
+  padding: 1em;
+  border-radius:3em;
+  letter-spacing: 4px;
+  border: none;
+  margin-bottom: 2em;
+ font-weight: 400;
+  font-size: 1em;
+}
+
+.seventh-section1-bottom{
+  display:grid; 
+  grid-template-columns: 1fr 1fr;
+
+
+}
+
+.fun,.except{
+  border-radius:2.5em ;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  margin: 2em  1.5em;
+  background-color: inherit;
+}
+
+.fun{
+  padding:1em 2em
+}
+
+.except{
+  padding:1em .5em 1em .9em ;
+
+}
+
+.fun p,.except p{
+  margin-left:.2em;
+}
+
+.fun img,.except img{
+  width: 20%;
+}
+
+.inline{
+  display: inline;
+}
+
+/*style eighth section*/
+
+.eighth-section{
+  margin: 1em;
+}
+
+.section8-arrow{
+  width: 40%;
+}
+
+.img-section8{
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+margin-bottom: 1em;
+}
+
+.eight{
+  background-color: white;
+  margin: 1.5em;
+  border-radius: 1em;
+  padding: 3em;
+  box-shadow: var(--bs);
+  offset: 2;
+
+}
+
+.head3{
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 1.5em;
+
+}
+
+.eight img{
+  width: 75%;
+}
+
+.ul-flex{
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 3.5em;
+}
+.eighth-section .buttondiv{
+  display: flex;
+justify-content: center;
+}
+
+/*.list-item{
+  padding: .5em;
+}*/
+
+/*style nineth-section*/
+
+
+.margin-bottom{
+  margin-bottom:4em;
+}
+.nineth-section {
+  margin: .9em;
+}
+
+.center9{
+  margin: 0 auto;
+text-align: center;
+
+}
+
+.wire9{
+  width: 25%;
+}
+
+.top-img9{
+  margin-bottom: -1em;
+  margin-right: -8em;
+}
+
+.bottom1{
+  border: 1px solid rgba(0,0,0,.4);
+}
+
+.bottom1{
+  display: flex;
+}
+
 .sign{
   display: flex;
   justify-content: flex-end;
-    margin-left: 30px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin:20px;
+  margin-left: .5em;
+  margin-right: .5em;
+ font-size:2em;
 }
+
 .two-ctn{
-  margin:10px;
-  padding:10px;
+  margin: .9em;
 }
-.para,.hide-para{
-  margin:10px;
+
+.head3{
+   font-size: .9rem;
+   font-weight: 600;
+  color: rgba(0,0,0,0.8);
 }
-.margin-top{
-  margin-top:0px;
-  }
-.margin-bottom{
-  margin-bottom: 40px;
+
+.hide-para{
+  display: none;
 }
-.center-elem{
-  text-align: center;
- }
-.margin-left{
-  margin-left:40% ;
-  }
-.section9wire{
-  width:20%;
-  margin-left:20%;
-  margin-top:10%;
- }
+
+.last-sign{
+display: flex;
+justify-content: flex-end;
+font-size: 2rem;
+margin-left: 5em;
+/*margin-bottom: 5em;*/}
+
 .section9foot{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10%;
-  padding:10%;
-}
-.para-foot{
-  margin-right:1%;
-  margin-left: -10%;
-}
-/*.whitebg{
-  background-color: #ffffff;
-}*/
-.btntwitpara{
-  background-color: #e7332b;
-  border-radius: 20px;
-  padding:10px 20px;
-  border:none;
-  width:60%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  }
-a{
-  text-decoration: none;
-}/*for all anchor tags*/
-.whitebg{
-  margin-right: 2%;
-}
-/*styling section 10*/
-.scetion10-btm2{
-  background: url("https://training.zuri.team/hour.png");
-   background-repeat: no-repeat;
-  background-size:15% ;
-  background-color: #1b1a20;
-  color: white;
-  background-position: bottom right;
-   }
-.btm-general{
-    border-radius: 30px; 
-    margin: 30px;
-  padding: 10%;
-         }
-.style-none{
-  list-style-type: none;
-}
-.scetion10-btm3{
-  background: url("https://training.zuri.team/time.png");
-  background-repeat: no-repeat;
-  background-size:15% ;
-  background-color: #1b1a20;
-  color: white;
-  background-position: bottom right;
-  padding-bottom: 50px;
-}
-.center-img{
- float:right;
-  margin-left:0px;
-  width:80%;
-}
-.section10-btm a{
-  color:white;
-  text-decoration: underline;
-}
-.top-section10-top{
-  display:flex;
-}
-.top-section9-top-second{
-  margin-top:20px;
-  margin-bottom:-10px;
-}
-.path{
   margin:0 auto;
   text-align: center;
 }
-.section10-btm{
-  display:flex;
 
-}
-@media (max-width:1200px){
-  .scetion10-btm1{
-    display: none;
-  }
-}
-.ctn-move{
-  padding-left: 5%;
-  padding-right:0%;
-}
-/*styling section eleven*/
-.section-eleven{
-  background-color: #e7332b;
-  background-blend-mode:saturation;
-  display:flex;
-  background-repeat:no-repeat;
+.buttonsctn9foot{
+  display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  padding:7%;
-  border-radius: 4%;
-  color:white;
-  }
-.btn-white-last{
-  border-radius:15px;
-  padding:10px;
-  background-color: white;
+}
+
+.para-foot1{
+  margin-top:2em;
+  margin-bottom:.9em;
+  color:rgba(0,0,0,.2);
+}
+
+.btntwitpara{
+  border-radius:2.5em;
+  letter-spacing:1;
+  background:#e7332d;
   border:none;
-  margin-top: 5%;
-  
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: .9em;
+  /*padding-left: .5em;
+  padding-right: 0;*/
 }
-.btn-white-last a{
+
+ .component2 {
+   margin-left: -15em;
+ }
+
+.component2 a{
+  text-decoration: none;
+}
+
+/*style section 10*/
+
+.part-time{
+  background:url("https://training.zuri.team/time.png");
+background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: bottom 4em right 2.5em;
+
+}
+
+.full-time{
+  background: url("https://training.zuri.team/hour.png");
+background-repeat: no-repeat;
+background-position: bottom 4em right 2em;
+background-size: 20%;
+  padding-right: 4em !important;
+
+
+
+}
+.top-section10-top{
+  display: flex;
+}
+
+.section10{
+  margin:2em;
+}
+
+ .img10-1,.img10-2{
+  width: 40%;
+}
+
+.path{
+  margin-bottom: .1em;
+  font-size: 1.2em;
   color:#e7332b;
+  text-align: center; 
+  margin-left:-1.5em;
+  margin-top:1.1em;
 }
-/*styleing footer*/
-.img-footer{
-  width:50%;
+
+.path2{
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 1.5em;
+  margin-left:1em;
+  text-align: center;
 }
-.footer
-.footer-ctn1{
-  display: grid;
-  grid-template-columns:1fr 1fr ;
- align-items: center;
-  max-width: 600px;
+
+  .path3{
+   text-align: center;
+    margin-left: -1em;
+ }
+
+.top-section9-top-first{
+  margin-right: -4em;
 }
+
+.top-section9-top-third{
+ display: flex;
+justify-content: flex-end;
+  margin-top:-3em;
+}
+
+.btm-general{
+  background-color:#1b1a20 ;
+  color: #ffffff;
+  margin-bottom: 2em;
+  border-radius: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 4em;
+  padding-bottom:4em;
+}
+
+.head-bold{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.margin-bottom10{
+  margin-bottom: 1.5em;
+}
+
+.head-normal{
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.style-none{
+  list-style-type: none;
+}
+
+.list-flex{
+  display:flex;
+  align-items:center;
+  padding-right: 1.7em;
+  list-style-type: decimal !important;
+}
+
+.list-flex img{
+  width: 50%;
+  margin: .5em;
+}
+
+/*style section11*/
+
+.section-eleven{
+    background-color:#e7332b !important;
+    margin: 2em;
+    border-radius: 2em;
+    padding:4em;
+    text-align:center;
+    color:white;
+    background: url("https://training.zuri.team/mains.png");
+   background-repeat: no-repeat;
+   background-size: 30%;
+   background-position:bottom right;
+
+}
+
+.section-eleven button{
+  padding:1em;
+  border-radius:2em;
+  letter-spacing:3;
+  background-color:white;
+  border:none;
+  margin-top: 2em;
+ font-size:1rem;
+
+
+}
+
+.section-eleven button a{
+  color:#e7332b;
+  text-decoration:none;
+}
+
+/*style footer*/
+
+.footer{
+  margin-top:3em;
+  text-align: center;
+}
+
+.footer logo-imgfooter{
+  width:100%;
+  color: inherit;
+}
+
+.ingressive-img{
+  margin: 2em;}
+
 .footer-list{
   display: flex;
-  justify-content: flex-end;
-}
-.footer-list{
-  display:flex;
-  justify-content: flex-end;
+  justify-content: center;
   list-style-type: none;
-  margin-bottom: 10px;
 }
+
+.footer-list-item{
+  padding:.5em;
+}
+
+/*.margin-bottom102{
+  margin-bottom: .1em;
+}*/
+
 .footer-ctn2{
-  display:flex;
-  align-items: center;
-  margin: 10px;
-  max-width: 600px;
+  text-align: center;
+  display:fex;
+align-items: center;
+ /* margin-top:em ;*/
+  margin-bottom:3em;
+
 }
-.end-para{
-  float: center;
-   margin-left: 50%;
-  display: inline;
+
+.footer hr{
+  margin-bottom:2em !important;
+  margin-top: 2em !important;
 }
+
