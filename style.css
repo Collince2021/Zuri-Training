@@ -2,6 +2,9 @@ body,html{
 width:100%;
 height:100%;
 }
+
+body{
+margin:0 auto;}
 :root{
   --fs-bd:1rem;
   --fs-head1:1.5rem;
