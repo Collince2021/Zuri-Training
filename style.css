@@ -1,4 +1,7 @@
-  /*style navigation*/ 
+  .add-margin {
+margin:0 auto;
+padding:3em;}
+/*style navigation*/ 
 
 .nav-image img{
   width:100%;
