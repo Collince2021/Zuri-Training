@@ -1178,7 +1178,7 @@ background-repeat:no-repeat;
     padding:4em;
     text-align:center;
     color:white;
-    background: url("https://training.zuri.team/round.svg") top 20px left 30px,url("https://training.zuri.team/bend1.svg") top right,url("https://training.zuri.team/mains.png") bottom right,url("https://training.zuri.team/curve2.svg") bottom left;
+    background: url("https://training.zuri.team/round.svg") top 20px left 30px,url("https://training.zuri.team/bend1.svg") top right,url("https://training.zuri.team/mains.png") bottom right,url("https://training.zuri.team/curve2.svg") bottom left !important;
    background-repeat: no-repeat;
    background-size: 25%;
 }
