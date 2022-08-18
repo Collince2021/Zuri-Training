@@ -1,6 +1,449 @@
-body,html{ 
-width:100%;
-height:100%;
+  /*style navigation*/ 
+/*.thumb-img{
+   background-color: #e7332b;
+  border-radius: 60%; 
+}*/
+.nav-image img{
+  width:100%;
+}
+.nav-image{
+  max-width:30%;
+  margin-left:2em;
+  margin-top:1em;}
+.nav-list{max-width:50%;}
+.button-nav{
+  /*margin-right:50px;
+  padding-top:20px;*/
+  max-width:20%;
+ display:flex;
+  align-content:center;
+  margin-left:-7em;
+  margin-right:2em;
+
+}
+@media (max-width:900px)
+{.nav-btn{
+  margin-top:1em;
+}
+}
+@media (min-width:901px)
+{
+  .nav-btn{
+    margin-top:.7em;
+  }
+  .navigate{
+    margin-bottom:0em !important;
+  }
+.second-section{
+margin-top:-13em !important;}
+
+}
+
+.nav-btn button{
+  border-radius:75px;
+  background-color:#e7332b;
+  color:white;
+  width:140px;
+  padding:.7em  .5em .7em 1.5em;
+  border:none;
+  vertical-align:middle;
+  font-weight:bold;
+}
+  .thumb{
+    background-color:#e7332b;
+    border-radius:100px;
+    padding:10px;
+    width:60px;
+    position:relative;
+    z-index:5;
+    /*margin-left:-300px;
+    osition:absolute;
+    left:2%;
+    top:16px !important;*/}
+
+.navigate{
+  margin-bottom:11em !important;
+}
+.navigation{
+  display:flex;
+  top:0;
+  position:fixed;
+  width:100%;
+  margin:16px;
+
+}
+
+.navbar-ul{
+  list-style-type: none;
+  margin-left:20px;
+}
+
+.navbar-ul li{
+  display:inline-block;
+  font-size:1.2rem;
+  }
+
+/*.list1 + list1{
+  margin-left:-10px !important;
+}*/
+
+/*for larger screens*/
+
+*{
+  font-family: Raleway,serif;
+}
+@media (min-width:1200px){
+  .section11-ctn{
+    background:url("https://training.zuri.team/circle.png") top left no-repeat;
+    background-size:20%;
+  }
+.list-footer-div{
+  display:flex;
+  justify-content: flex-end !important;
+  position: absolute;
+  right:-1%;
+  margin-right: 3em;
+
+}
+.footer-ctn1{
+  display: flex;
+  align-items: center;
+}
+
+.footer-ctn3{
+  display: flex;
+ flex-direction: row-reverse;
+}
+
+  .footer-ctn2-1{
+    display:flex;
+    justify-items: center;
+  margin-right: 2em;
+
+  }
+
+  .end-para1{
+    margin-right:1em;
+  }
+  .footer-ctn2{
+    display:flex;
+    justify-content: flex-start;
+    position: absolute;
+   left:-1%;
+    margin-left:3em ;
+
+  }
+
+  /*section 11*/
+  .section-eleven .head2{
+    font-size: 3rem !important;
+    margin-top: -2em !important;
+  }
+  .section-eleven{
+    background: url("https://training.zuri.team/round.svg") top 60px left 150px ,url("https://training.zuri.team/bend1.svg") top right,url("https://training.zuri.team/mains.png") bottom right,url("https://training.zuri.team/curve2.svg") bottom left !important;
+    background-repeat: no-repeat !important;
+    background-size:12%, 10%,10%,10% !important;
+    padding-bottom: 1em !important;
+    padding-top: 1.5em !important;
+  }
+  /*style section 10*/
+  .section10-btm{
+    margin-bottom: 6em;
+  }
+ .scetion10-btm1{
+   max-width: 10%;
+   padding-top: 7em;
+ }
+  .btm-general{
+max-width: 40%;
+margin: 1em;}
+.path2{
+     display: flex !important;
+    justify-content: center !important;
+    margin: 0 auto 20px auto !important;}
+  .top-section10-top{
+    display: flex;
+    justify-content: center;
+   align-content:center;
+  }
+
+  .top-section9-top-first{
+     position: absolute;
+     top:6550px;
+    left: 200px;
+  }
+
+  .top-section9-top-third{
+    position: absolute;
+    top: 6670px;
+    right:200px ;
+  }
+
+  .top-section9-top-third img{
+    width: 70%;
+  }
+  /*style section 9*/
+  .section9foot{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  }
+
+  .para-foot1{
+    margin-right: 1em !important;
+    
+  }
+  .nineth-section{
+    margin: 6em !important;
+  }
+  .para{
+    font-size: 1.2rem !important;
+  }
+.top-img9{
+  display: flex;
+  align-items: center;
+  margin-left: 1em !important;
+  margin-top: 2em !important;
+  
+}
+  .center9{
+    margin-top:-2em !important;
+    margin-inline: -1em !important;
+margin-bottom: -4em !important;
+  }
+
+  .top-img9 img{
+  max-width: 100px;
+  }
+ /*style sextion 8*/
+.eighth-section{
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  padding-bottom:1px !important;
+}
+.buttondiv{
+    margin-bottom: 0em !important;
+  }
+.eightctn{
+  margin-bottom: 5em;
+}
+  hr{
+    display: none;
+  }
+  
+.eighth-section .head2{
+  text-align: left;
+  font-size: 2.2rem;
+  display: inline-block;
+  max-width: 400px;
+}
+  .ul-flex{
+    margin-bottom:0.9em !important;
+    margin-top:-1em !important;
+  }
+  .eight{
+    margin: 1.5%;
+    padding-bottom: .7em !important;
+    padding-top: 1em !important;
+    max-width: 30%;
+  }
+  .para8{
+    display: inline-block;
+    max-width: 300px;
+    font-size: 1.1rem;
+  }
+  .eighth-section .head3{
+    font-size: 1.3rem;
+  }
+  .img-section8{
+    display: flex; 
+    justify-content: center;
+    margin-left: -6em;
+  }
+.img-section8 img{
+  width: 12%;
+}
+/*style section 7*/
+  .seventh-section1-top-img{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:5em;
+  }
+
+.wire-image7{
+  width:20%;
+}
+
+.seventh-section1{
+  max-width: 500px;
+}
+.seventh-section2{
+  max-width: 500px;
+}
+.btnsection5{
+  background-color: white;
+  color: #e7332b;
+ padding:8px 16px 8px 16px !important;
+  font-size:1.2rem !important;
+  border-radius:2em;
+  border: none;
+  margin-bottom: 2em;
+  letter-spacing:0px !important;
+}
+.seventh-section .last-para{
+font-size:1.2rem;}
+.seventh-section{
+  display:grid;
+  grid-template-columns:1fr 1fr;}
+
+
+.section7-img{
+  width:1000px;
+  height:500px;
+             }
+.seventh-section1{
+  max-width: 50%;
+  padding-left:3em;
+    margin-bottom:6em;
+  
+}
+
+/*fifth section*/
+
+  .fifth-section{
+    margin-bottom:2.5em;
+  }
+  /*fourth section*/
+  .fourth-section-section2{
+    margin-top:-4.5em;
+  }
+.fourth-section1 img{width:5%;}
+.fourth-section1{
+  margin-left: -15em;
+  padding-top: 6em;
+  margin-right: 3em;
+
+}
+  .fourth-section3-flex img{
+    width:200px;
+    height:200px;
+  }
+  .fourth-section{
+    margin-top:-4em;
+    }
+.fourth-section2-flex{
+  padding-left: 3em;
+}
+.fourth-section3-flex{
+  padding: 8em;
+}
+
+ /*style third section*/
+.third-section{
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  border-bottom-width:60% ;
+  padding-bottom: 0.5em !important;
+}
+
+  .third-section1{
+    text-align: left;
+    padding: 0;  }
+  /*style second section*/  
+  .wire1-size{
+   width:40%;
+ }
+
+  .wire{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:2.9em;
+  }
+.second-section2 .pink-para{
+  margin-bottom:.5em;
+}
+
+.image2{
+    margin-left: 10.5em;
+    margin-top:-3.8em;
+  }
+
+  .image1{
+    margin-top:-8em;
+    margin-left: -5em;}
+
+.image1 img{width:80%;}
+  .image2 img{width:60%;}
+  .two-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttondiv{
+    margin-top:-5em;
+  }
+
+  .buttondiv button{
+    padding: .7em 1em !important;
+  font-size:1.2rem !important;}
+
+  .second-section1{
+  margin-top: -20em;
+}
+
+
+.enroll{
+  padding:.5em 1.5em .5em 1.5em;
+}
+  .para3{font-size:1.2rem ;}
+
+
+  .second-section1{
+    margin-left: 2em;
+    margin-top:8em;
+  }
+
+.sect-last{margin-right: 2em;
+margin-top: 9em;}
+
+
+  .head-small{
+    font-size: 2.5rem;
+  }
+  
+  .second-section2{
+  text-align: center;
+  margin-top:-4em;
+    padding-top: 9em;
+  }
+
+  .larger{
+    width:900px !important;
+  }
+  
+  .second-section{
+    display:flex ; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    border-bottom:1px solid rgba(0,0,0,.3);
+    padding-bottom:2em;
+   border-bottom-width:60%;
+
+
+  }
+
+  .large{width:1000px;}
+  /*style navigation*/
+
+  /*style navigation*/
+  
+}
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
 }
 
 :root{
@@ -20,42 +463,24 @@ height:100%;
 {
 :root{
   --fs-bd:1.5rem;
-  --fs-head1:4.5rem;
-  --fs--head2:3.5rem;
-  --fs--head3:2.5rem;
+  --fs-head1:3rem;
+  --fs--head2:2.5rem;
+  --fs--head3:1.8rem;
 }
 }
 
-/*style navigation bar*/
-.nav-btn button{
-  background-color:#e7332b;
- border-radius:10px;
-padding:0.9em;
-  color:#fff;
-  border:none;
+@media (max-width:950px){
+  .nav-list{display: none;} 
+.footer .end-para2{
+  border-bottom:1px solid rgba(0,0,0,.4);
+  padding-bottom:16px;
 }
-.navigation{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position:fixed;
-  top:0;
-  width:100%;
-}
+.footer .footer-ctn2{
+  padding-top:16px;
+  padding-bottom:16px;
 
-.navigate{
-  margin-bottom: 10em;
-}
+}}
 
-@media (max-width:1000px){
-  .nav-list{display: none;} }
-.nav-list ul{
-  display: flex;
-  align-items: center;
-   list-style-type: none;
-  max-width: 1024px;
-  margin: 20px; 
-}
 
 @media (min-width:1000px){
   .logo-zuri{
@@ -72,33 +497,28 @@ padding:0.9em;
    }
 
 @media (max-width:900px){
+  /*seventh section*/
+  /*.seventh-section1-bottom{
+    display:grid !important;
+    grid-template-columns:1fr 1fr !important;
+  }*/
   /*style tenth section*/
 
   .move{display:none;}
 
   .path3{margin-bottom:4em;}
   
-.button-nav{
-  display:flex;
-  margin:10px;
-  padding:0;
-  align-items: center;
-  margin-left: -300px;
+  /*style section 9*/
+  .two-ctn{
+    max-width:70%;
   }
-  
-.thumb{
-  width:20%;
-  border-radius:50%;
-  border: 1px solid rgba(0,0,0,.1);
-  background-color:#e7332b;
-  position:relative;
-  z-index:100;
-  padding:0.5em;
-}
 
-.nav-btn{
-   margin-left:-10em;
+  
+  /*style section 8*/
+.eight{
+  margin:.7em .9em .9em .7em ;
 }
+  
 
 /*style section 2*/
 
@@ -140,18 +560,15 @@ padding:0.9em;
 /*general style*/
 
 .head-tp,.head4-para,.head2{
-  font-size: var(--fs-head1);
+  font-size: var(--fs--head2);
   font-weight: var(--fw-bold);
 }
 
 .white{
   color:white !important;
 }
-/*.navigate,.second-section,.third-section,.fourth-section{
- 
-}*/
 
-.white{
+  .white{
   color:white;
 }
 
@@ -187,7 +604,7 @@ body{
 /*styling second section*/
 
 .second-section2{
-  margin: 0 auto !important;
+  margin: 0 auto;
 text-align: center;
 
 }
@@ -221,16 +638,25 @@ text-align: center;
 
 /*style third section*/
 
+.third-section .third-img{
+  height: 100%;
+}
 .third-section{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   text-align:center;
-  margin:0 auto !important;
+  margin:0 auto;
+
 }
 .third-section1,.third-section2,.third-section3{
   margin-left: 1.4em;
   margin-right: 1.4em;
   margin-top:2em;
   margin-bottom: 2em;
-
+ display:inline-block;
+  max-width: 300px;
 
 }
 
@@ -249,6 +675,7 @@ text-align: center;
   margin-left: 1.5em;
   margin-right: 1.5em;
   margin-bottom: 4em;
+
 }
 
 
@@ -258,41 +685,72 @@ text-align: center;
   margin-bottom: .5em;
 }
 
-/*style fifth section*/
-
-.img-curve{
-  width: 20%;
+.fourth-section-section2{
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+
 }
 
-  .fifth-section{    background:rgba(254,231,227,255);
-/*margin:2em .5em;*/
+.fourth-section3-flex{
+  display:flex;
+  justify-content: center;
+}
+
+.star{
+  width:50%;
+  height:60%;
+}
+
+
+.fourth-section2-flex,.fourth-section3-flex{
+  max-width: 500px;
+}
+
+/*style fifth section*/
+
+  .fifth-section{    background:rgba(254,231,227,255) !important;
 padding:.4em;
+    display: flex;
+    flex-wrap: wrap;
   }
 
 .two{
   margin:2em 0;
+  padding:4em 0;
 }
 
 .fifth-section1{
-  background:rgba(231,51,43,255);
+  background-color:rgba(231,51,43,255) !important;
+  background:url("https://training.zuri.team/curve1.png") top right no-repeat;
+  background-size:30%;
 }
 
 .section-center{
-  padding:3em;
+  padding-left:2em;
+  margin-top: -2em;
+  margin-right: 3em;
+
 }
 
 .two{
   margin:2em .9em;
   border-radius:2em;
+  max-width: 350px; 
+}
+
+.para-high{
+  font-size:2.2rem !important;
+  margin-top: -.9em;
+  margin-right: 1em;
 }
 
 .number{
   font-size:3rem;
   font-weight:var(--fw-bold);
   letter-spacing:3;
-  margin-bottom:.8em;
+  margin-bottom:1em;
+  margin-top:16px;
 }
 
 .fifth-sectionh2{
@@ -302,13 +760,14 @@ padding:.4em;
 }
 
 .bottom{
-  margin-bottom:1.1em;
+  margin-bottom:0em;
   line-height:1.5;
-}
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2rem;
+  
 
-/*.fifth-section1{
-  margin-top:3em;
-}*/
+}
 
 .fifth-section6{
   margin-bottom:-.1em; 
@@ -317,22 +776,55 @@ padding:.4em;
 .fifth-section2,.fifth-section3,.fifth-section4,.fifth-section5,.fifth-section6{
   background:white;
 }
+.fifth-section2{
+ background-color:white !important; background:url("https://training.zuri.team/curve.svg") top right no-repeat;
+  background-size:30%;
+}
+.fifth-section3{
+ background-color:white !important; background:url("https://training.zuri.team/curve3.svg") top right no-repeat;
+  background-size:30%;
+}
+.fifth-section4{
+ background-color:white !important; background:url("https://training.zuri.team/curve4.svg") top right no-repeat;
+  background-size:30%;
+}
+
+.fifth-section5{
+ background-color:white !important; background:url("https://training.zuri.team/curve5.svg") top right no-repeat;
+  background-size:30%;
+}
+
+.fifth-section6{
+ background-color:white !important; background:url("https://training.zuri.team/curve6.svg") top right no-repeat;
+  background-size:30%;
+}
+
 
 /*style seventh section*/
 
+.seventh-section1-bottom{
+display: flex;
+flex-wrap:wrap;
+align-items:content;
+/*margin-left:-16px !important;*/}
+  
+
 .seventh-section2{
-  background: url("https://training.zuri.team/dotsection5.svg");
-background-position: bottom left;
-  background-size: 10%;
-  background-repeat: no-repeat;
+  
   padding-bottom: 4em;
 
 }
+
 .seventh-section{
+  background: url("https://training.zuri.team/dotsection5.svg");
+background-position: bottom 2em left 2em;
+  background-size: 10%;
+  background-repeat: no-repeat;
   background-color: #e7332b !important;
-  margin:7.5em 0;
-  margin-bottom: 8em !important;
+  margin:7.5em 0 3em 0;
   padding:1.5em;
+  display:flex;
+  flex-wrap:wrap;
 }
 
   .margin0{
@@ -356,33 +848,30 @@ background-position: bottom left;
   font-size: 1em;
 }
 
-.seventh-section1-bottom{
-  display:grid; 
-  grid-template-columns: 1fr 1fr;
-
-
-}
-
 .fun,.except{
   border-radius:2.5em ;
   border: 2px solid white;
   display: flex;
   align-items: center;
-  margin: 2em  1.5em;
+  /*margin: 2em  1.5em;*/
   background-color: inherit;
 }
 
 .fun{
-  padding:1em 2em
+  padding:1em .8em;
+  max-width:140px;
 }
 
 .except{
   padding:1em .5em 1em .9em ;
-
+  max-width:140px;
+  /*margin-bottom:10em;*/
+  font-size:.8rem;
+ 
 }
 
 .fun p,.except p{
-  margin-left:.2em;
+  /*margin-left:.2em;*/
 }
 
 .fun img,.except img{
@@ -393,7 +882,24 @@ background-position: bottom left;
   display: inline;
 }
 
+.border,.border4{
+  max-width:50%;
+}
+
+.border + .border{
+  margin-left:1em;
+  margin-bottom:1em;
+}
+.border4 + .border4{
+  margin-left:1em;
+  margin-bottom:1em;
+}
+
 /*style eighth section*/
+.eightctn{
+  display:flex;
+  flex-wrap:wrap;
+}
 
 .eighth-section{
   margin: 1em;
@@ -409,13 +915,16 @@ background-position: bottom left;
   margin-top: 3em;
 margin-bottom: 1em;
 }
+.eight + .eight{
+  margin-left: 1%;
+}
 
-.eight{
+
+.eight {
   background-color: white;
-  margin: 1.5em;
   border-radius: 1em;
   padding: 3em;
-  box-shadow: var(--bs);
+  box-shadow:5px 5px 2px 1px lightpink;
   offset: 2;
 
 }
@@ -479,11 +988,14 @@ text-align: center;
 }
 
 .sign{
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  right: 15%;
+  display: flex !important;
+  justify-content: flex-end !important;
   margin-left: .5em;
-  margin-right: .5em;
+  /*margin-right: ;*/
  font-size:2em;
+  
 }
 
 .two-ctn{
@@ -505,7 +1017,7 @@ display: flex;
 justify-content: flex-end;
 font-size: 2rem;
 margin-left: 5em;
-/*margin-bottom: 5em;*/}
+}
 
 .section9foot{
   margin:0 auto;
@@ -533,8 +1045,6 @@ margin-left: 5em;
   align-items:center;
   justify-content: center;
   padding: .9em;
-  /*padding-left: .5em;
-  padding-right: 0;*/
 }
 
  .component2 {
@@ -619,6 +1129,8 @@ justify-content: flex-end;
   padding-right: 3em;
   padding-top: 4em;
   padding-bottom:4em;
+  box-shadow: 11px 11px 8px 8px  #fbe0d8
+;
 }
 
 .head-bold{
@@ -650,6 +1162,15 @@ justify-content: flex-end;
   width: 50%;
   margin: .5em;
 }
+.section10-btm{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background: url("https://training.zuri.team/circle.png");
+  background-position: bottom -50px right -50px;
+background-repeat:no-repeat;
+  background-size:15%;
+}
 
 /*style section11*/
 
@@ -660,11 +1181,9 @@ justify-content: flex-end;
     padding:4em;
     text-align:center;
     color:white;
-    background: url("https://training.zuri.team/mains.png");
+    background: url("https://training.zuri.team/round.svg") top 20px left 30px,url("https://training.zuri.team/bend1.svg") top right,url("https://training.zuri.team/mains.png") bottom right,url("https://training.zuri.team/curve2.svg") bottom left;
    background-repeat: no-repeat;
-   background-size: 30%;
-   background-position:bottom right;
-
+   background-size: 25%;
 }
 
 .section-eleven button{
@@ -689,6 +1208,7 @@ justify-content: flex-end;
 .footer{
   margin-top:3em;
   text-align: center;
+  background:white !important;
 }
 
 .footer logo-imgfooter{
