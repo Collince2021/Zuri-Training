@@ -83,15 +83,7 @@ margin-top:-13em !important;}
   font-size:1.2rem;
   }
 
-/*.list1 + list1{
-  margin-left:-10px !important;
-}*/
-
 /*for larger screens*/
-
-*{
-  font-family: Raleway,serif;
-}
 @media (min-width:1200px){
   .section11-ctn{
     background:url("https://training.zuri.team/circle.png") top left no-repeat;
@@ -169,13 +161,13 @@ margin: 1em;}
 
   .top-section9-top-first{
      position: absolute;
-     top:6550px;
+     top:6500px;
     left: 200px;
   }
 
   .top-section9-top-third{
     position: absolute;
-    top: 6670px;
+    top: 6600px;
     right:200px ;
   }
 
@@ -260,7 +252,7 @@ margin-bottom: -4em !important;
     margin-left: -6em;
   }
 .img-section8 img{
-  width: 12%;
+  width: 20%;
 }
 /*style section 7*/
   .seventh-section1-top-img{
@@ -444,6 +436,7 @@ margin-top: 9em;}
 html, body {
   height: 100%;
   width: 100%;
+  font-family:"Avenir Next" !important;
 }
 
 :root{
