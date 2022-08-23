@@ -211,6 +211,7 @@ margin-bottom: -4em !important;
 .eighth-section{
   border-bottom: 1px solid rgba(0,0,0,.2);
   padding-bottom:1px !important;
+  padding-top:4em;
 }
 .buttondiv{
     margin-bottom: 0em !important;
@@ -255,6 +256,10 @@ margin-bottom: -4em !important;
   width: 20%;
 }
 /*style section 7*/
+  .seventh-section{
+   border-bottom:1px solid rgba(0,0,0,.7);
+  border-bottom-width:90%;
+  padding-bottom:1em;}
   .seventh-section1-top-img{
     display:flex;
     justify-content:flex-end;
