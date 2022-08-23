@@ -187,6 +187,7 @@ margin: 1em;}
   }
   .nineth-section{
     margin: 6em !important;
+    padding-top:4em;
   }
   .para{
     font-size: 1.2rem !important;
@@ -209,7 +210,8 @@ margin-bottom: -4em !important;
   }
  /*style sextion 8*/
 .eighth-section{
-  border-bottom: 1px solid rgba(0,0,0,.2);
+  border-bottom: 1px solid rgba(0,0,0,.7);
+  border-bottom-width:90%;
   padding-bottom:1px !important;
   padding-top:4em;
 }
@@ -256,10 +258,6 @@ margin-bottom: -4em !important;
   width: 20%;
 }
 /*style section 7*/
-  .seventh-section{
-   border-bottom:1px solid rgba(0,0,0,.7);
-  border-bottom-width:90%;
-  padding-bottom:1em;}
   .seventh-section1-top-img{
     display:flex;
     justify-content:flex-end;
