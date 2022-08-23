@@ -56,10 +56,7 @@ margin-top:-13em !important;}
     width:60px;
     position:relative;
     z-index:5;
-    /*margin-left:-300px;
-    osition:absolute;
-    left:2%;
-    top:16px !important;*/}
+   }
 
 .navigate{
   margin-bottom:11em !important;
@@ -181,6 +178,8 @@ margin: 1em;}
     display: flex;
     justify-content: center;
    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.7);
+    border-bottom-width:95%;
   }
 
   .para-foot1{
@@ -191,8 +190,7 @@ margin: 1em;}
     margin: 6em !important;
     padding-top:2em;
     padding-bottom:2em;
-    border-bottom: 1px solid rgba(0,0,0,.7);
-    border-bottom-width:90%;
+   
   }
   .para{
     font-size: 1.2rem !important;
@@ -216,7 +214,7 @@ margin-bottom: -4em !important;
  /*style sextion 8*/
 .eighth-section{
   border-bottom: 1px solid rgba(0,0,0,.7);
-  border-bottom-width:90%;
+  border-bottom-width:95%;
   padding-bottom:1px !important;
   padding-top:3em;
 }
@@ -1164,7 +1162,7 @@ justify-content: flex-end;
   flex-wrap: wrap;
   align-content: center;
   background: url("https://training.zuri.team/circle.png");
-  background-position: bottom -50px right -50px;
+  background-position: bottom -45px right -40px;
 background-repeat:no-repeat;
   background-size:15%;
 }
