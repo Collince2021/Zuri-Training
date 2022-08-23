@@ -161,13 +161,13 @@ margin: 1em;}
 
   .top-section9-top-first{
      position: absolute;
-     top:6500px;
+     top:6300px;
     left: 200px;
   }
 
   .top-section9-top-third{
     position: absolute;
-    top: 6600px;
+    top: 6400px;
     right:200px ;
   }
 
@@ -425,12 +425,8 @@ margin-top: 9em;}
   }
 
   .large{width:1000px;}
-  /*style navigation*/
-
-  /*style navigation*/
-  
+ 
 }
-
 
 
 html, body {
