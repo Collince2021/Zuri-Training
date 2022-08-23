@@ -139,6 +139,8 @@ margin-top:-13em !important;}
     padding-top: 1.5em !important;
   }
   /*style section 10*/
+  .section10{
+    padding-top:1em;}
   .section10-btm{
     margin-bottom: 6em;
   }
@@ -187,7 +189,10 @@ margin: 1em;}
   }
   .nineth-section{
     margin: 6em !important;
-    padding-top:4em;
+    padding-top:2em;
+    padding-bottom:2em;
+    border-bottom: 1px solid rgba(0,0,0,.7);
+    border-bottom-width:90%;
   }
   .para{
     font-size: 1.2rem !important;
@@ -213,7 +218,7 @@ margin-bottom: -4em !important;
   border-bottom: 1px solid rgba(0,0,0,.7);
   border-bottom-width:90%;
   padding-bottom:1px !important;
-  padding-top:4em;
+  padding-top:3em;
 }
 .buttondiv{
     margin-bottom: 0em !important;
