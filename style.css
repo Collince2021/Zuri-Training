@@ -141,6 +141,7 @@ margin-top:-13em !important;}
     padding-top:2.5em;}
   .section10-btm{
     margin-bottom: 6em;
+    margin-top:3em;
 
   }
  .scetion10-btm1{
@@ -162,15 +163,15 @@ margin: 1em;}
 
   .top-section9-top-first{
      position: relative;
-     top:7px;
-     left:-10px;
+     top:-7px;
+     left:-60px;
     
   }
 
   .top-section9-top-third{
     position: relative;
-    top:30px;
-    left:20px
+    top:100px;
+    left:60px
    
     
   }
