@@ -187,7 +187,7 @@ margin: 1em;}
     display: flex;
     justify-content: center;
    align-items: center;
-   border-bottom: 1.5px solid rgba(0,0,0,.6);
+   border-bottom: 1.5px solid rgba(0,0,0,.7) !important;
    border-bottom-width:90%;
   }
 
@@ -199,8 +199,7 @@ margin: 1em;}
     margin: 5em 5em 5em 1em!important;
     padding-top:2em;
     padding-bottom:4em;
-     
-   
+    border:none;
   }
   .para{
     font-size: 1.2rem !important;
@@ -582,7 +581,7 @@ html, body {
 
 hr{
   width: 90%;
-  margin:4em auto;
+  margin:3em auto;
   
 }
 
@@ -957,10 +956,6 @@ margin-bottom: 1em;
   display: flex;
 justify-content: center;
 }
-
-/*.list-item{
-  padding: .5em;
-}*/
 
 /*style nineth-section*/
 
