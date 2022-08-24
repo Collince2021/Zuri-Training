@@ -171,7 +171,7 @@ margin: 1em;}
   .top-section9-top-third{
     position: relative;
     top:100px;
-    left:60px
+    left:160px
    
     
   }
@@ -181,14 +181,14 @@ margin: 1em;}
   }
   /*style section 9*/
   .section9foot{
-    margin-top:-2em;
+    margin-top:-5em;
     padding-bottom:2.5em
     margin-bottom:3em;
     display: flex;
     justify-content: center;
    align-items: center;
-    border-bottom: 1px solid rgba(0,0,0,.7);
-    border-bottom-width:90%;
+   /* border-bottom: 1px solid rgba(0,0,0,.7);
+    border-bottom-width:90%;*/
   }
 
   .para-foot1{
@@ -198,7 +198,9 @@ margin: 1em;}
   .nineth-section{
     margin: 6em !important;
     padding-top:2em;
-    padding-bottom:2em;
+    padding-bottom:3em;
+     border-bottom: 1px solid rgba(0,0,0,.7);
+    border-bottom-width:90%;
    
   }
   .para{
@@ -223,7 +225,7 @@ margin-bottom: -4em !important;
  /*style sextion 8*/
 .eighth-section{
   border-bottom: 1px solid rgba(0,0,0,.7);
-  border-bottom-width:95%;
+  border-bottom-width:90%;
   padding-bottom:1px !important;
   padding-top:3em;
 }
