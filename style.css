@@ -181,12 +181,14 @@ margin: 1em;}
   }
   /*style section 9*/
   .section9foot{
-    margin-top:-5em;
+    margin-top:1.5em;
     padding-bottom:2.5em
     margin-bottom:3em;
     display: flex;
     justify-content: center;
    align-items: center;
+   border-bottom: 1.5px solid rgba(0,0,0,.6);
+   border-bottom-width:90%;
   }
 
   .para-foot1{
@@ -194,11 +196,10 @@ margin: 1em;}
     
   }
   .nineth-section{
-    margin: 6em !important;
+    margin: 5em 5em 5em 1em!important;
     padding-top:2em;
     padding-bottom:4em;
-     border-bottom: 1.5px solid rgba(0,0,0,.8);
-    border-bottom-width:90%;
+     
    
   }
   .para{
@@ -803,6 +804,7 @@ padding:.4em;
 .fifth-section6{
  background-color:white !important; background:url("https://training.zuri.team/curve6.svg") top right no-repeat;
   background-size:30%;
+  padding-bottom:-2em !important;
 }
 
 
