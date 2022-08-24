@@ -67,6 +67,7 @@ margin-top:-13em !important;}
   position:fixed;
   width:100%;
   margin:16px;
+  z-index:100;
 
 }
 
@@ -159,15 +160,15 @@ margin: 1em;}
   }
 
   .top-section9-top-first{
-     position: absolute;
-     top:6600px;
-    left: 200px;
+     position: relative;
+     
+    
   }
 
   .top-section9-top-third{
-    position: absolute;
-    top: 6700px;
-    right:200px ;
+    position: relative;
+   
+    
   }
 
   .top-section9-top-third img{
