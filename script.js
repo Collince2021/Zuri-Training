@@ -14,9 +14,9 @@ $(".two-ctn").hover(
 }
   
 }, function (){
-var $find=$(this).find(".hide-para");
-$find.removeClass("open");
-$find.fadeOut();
+var $check=$(this).find(".hide-para");
+$check.removeClass("open");
+$check.fadeOut();
 $(".sign").text("+");
 
 })
