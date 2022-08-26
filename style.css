@@ -958,7 +958,8 @@ justify-content: center;
 }
 
 /*style nineth-section*/
-
+.open{
+ display:block;}
 
 .margin-bottom{
   margin-bottom:4em;
