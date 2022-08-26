@@ -1,5 +1,5 @@
 $(function (){
-$(".para").click(
+$(".two-ctn").click(
   function (){
   var $find=$(this).find(".hide-para");
   if ($find.hasClass("open")){
