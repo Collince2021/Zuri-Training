@@ -5,11 +5,11 @@ $(".para").click(
   if ($find.hasClass("open")){
    $find.removeClass("open");
    $find.slideDown();
-   $(this).find(".sign").text("-");}
+   $(".sign").text("-");}
     else {
       $find.addClass("open");
       $find.slideUp();
-       $(this).find(".sign").text("+");
+       $(".sign").text("+");
       
 
 
