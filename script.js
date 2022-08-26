@@ -13,13 +13,8 @@ $(".two-ctn").hover(
      
 }
   
-}, function (){
-var $check=$(this).find(".hide-para");
-$check.removeClass("open");
-$check.fadeOut();
-$(".sign").text("+");
-
-})
+}, function (){}
+)
 
 
 
