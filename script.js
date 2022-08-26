@@ -1,5 +1,5 @@
 $(function (){
-$(".two-ctn").hover(
+$(".two-ctn").click(
   function (){
   var $find=$(this).find(".hide-para");
   if ($find.hasClass("open")){
@@ -9,13 +9,8 @@ $(".two-ctn").hover(
     else {
       $find.addClass("open");
       $find.slideUp();
-       $(".sign").text("+");
-     
-}
-  
-}, function (){}
+       $(".sign").text("+");}
+ } 
 )
-
-
 
 })
