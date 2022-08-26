@@ -1,5 +1,5 @@
 $(function (){
-$(".two-ctn").click(
+$(".two-ctn").hover(
   function (){
   var $find=$(this).find(".hide-para");
   if ($find.hasClass("open")){
@@ -10,11 +10,10 @@ $(".two-ctn").click(
       $find.addClass("open");
       $find.slideUp();
        $(".sign").text("+");
-      
-
-
+     
 }
   
+}, function (){
 })
 
 
