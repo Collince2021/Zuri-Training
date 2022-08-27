@@ -1,24 +1,35 @@
-$(function (){
-  $(".two-ctn").hover(
-    
-                function(){
-     var $find=$(this).find(".hide-para");
-  if ($find.hasClass("open")){
-   $find.removeClass("open");
-   $find.slideDown();
-   $(".sign").text("-");}
-    else {
-      $find.addClass("open");
-      $find.slideUp();
-       $(".sign").text("+");
-          }
-              },
-                      function(){})
+$(function(){
 
-  
-  
-  
-  
-} /*end of function definetion*/
-  
-  )
+$(".two-ctn").click(function(){
+
+var $finding=$(this).find(".hide-para");
+                  if($finding.hasClass("open") ){
+                    $finding.removeClass("open");
+                    $finding.fadeOut();
+                    $("sign").text("-");
+                                      }
+                     else{
+                     $finding.addClass("open");
+                    $finding.fadeIn();
+                    $("sign").text("+");
+                       
+                        }
+
+
+
+
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+})
