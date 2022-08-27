@@ -1,7 +1,8 @@
 $(function (){
-$(".two-ctn").click(
-  function (){
-  var $find=$(this).find(".hide-para");
+  $(".two-ctn").hover(
+    
+                function(){
+     var $find=$(this).find(".hide-para");
   if ($find.hasClass("open")){
    $find.removeClass("open");
    $find.slideDown();
@@ -9,8 +10,15 @@ $(".two-ctn").click(
     else {
       $find.addClass("open");
       $find.slideUp();
-       $(".sign").text("+");}
- } 
-)
+       $(".sign").text("+");
+          }
+              },
+                      function(){})
 
-})
+  
+  
+  
+  
+} /*end of function definetion*/
+  
+  )
