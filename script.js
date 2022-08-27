@@ -6,12 +6,12 @@ var $finding=$(this).find(".hide-para");
                   if($finding.hasClass("open") ){
                     $finding.removeClass("open");
                     $finding.fadeOut();
-                    $("sign").text("-");
+                    $(".sign").text("-");
                                       }
                      else{
                      $finding.addClass("open");
                     $finding.fadeIn();
-                    $("sign").text("+");
+                    $(".sign").text("+");
                        
                         }
 
