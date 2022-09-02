@@ -4,14 +4,16 @@ $(".two-ctn").click(function(){
 
 var $finding=$(this).find(".hide-para");
                   if($finding.hasClass("open") ){
+                    $(".sign").text("-");
                     $finding.removeClass("open");
                     $finding.fadeOut();
-                    $(".sign").text("+");
+                   
                                       }
                      else{
-                     $finding.addClass("open");
+                    $(".sign").text("+");
+                    $finding.addClass("open");
                     $finding.fadeIn();
-                    $(".sign").text("-");
+                   
                        
                         }
 
