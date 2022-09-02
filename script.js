@@ -17,13 +17,7 @@ var $finding=$(this).find(".hide-para");
                        
                         }
 
-/*$(".sign").click(function (){
-var find=$(this).find(".hide-para");
-if (find.hasClass("")){}})
-
-
-
-})*/
+})
 
 
 
