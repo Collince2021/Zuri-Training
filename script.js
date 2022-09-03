@@ -7,14 +7,14 @@ $(function() {
       $finding.removeClass("open");
       $finding.fadeOut();
       $(this).find(".sign").text("+").css({
-                "color": "black",
-        
+        "color": "black",
+
       })
     }
     else {
       $(this).find(".sign").text("-").css({
-            "color": "red",
-        
+        "color": "red",
+
       });
       $finding.addClass("open");
       $finding.fadeIn();
