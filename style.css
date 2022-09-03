@@ -182,7 +182,7 @@ margin: 1em;}
   /*style section 9*/
   .section9foot{
     margin-top:-2em;
-    padding-bottom:3em
+    padding-bottom:3em;
     margin-bottom:3em;
     display: flex;
     justify-content: center;
@@ -877,10 +877,6 @@ background-position: bottom 2em left 2em;
  
 }
 
-.fun p,.except p{
-  /*margin-left:.2em;*/
-}
-
 .fun img,.except img{
   width: 20%;
 }
@@ -958,6 +954,17 @@ justify-content: center;
 }
 
 /*style nineth-section*/
+
+.sign{
+  position: relative;
+  top:-60px;
+  left: 350px;
+  margin-left: .5em;
+  font-size:2em;
+  transition: all .3s ease-out;
+  
+}
+
 .open{
  display:block;}
 
@@ -985,21 +992,11 @@ text-align: center;
 
 .bottom1{
   border: 1px solid rgba(0,0,0,.4);
+  padding: 20px;
 }
 
 .bottom1{
   display: flex;
-}
-
-.sign{
-  position: absolute;
-  right: 15%;
-  display: flex !important;
-  justify-content: flex-end !important;
-  margin-left: .5em;
-  /*margin-right: ;*/
- font-size:2em;
-  
 }
 
 .two-ctn{
