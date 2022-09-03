@@ -13,21 +13,19 @@ var $finding=$(this).find(".hide-para");
                     $(this).contents().hasClass("sign").text("-");
                     $finding.addClass("open");
                     $finding.fadeIn();
-                   
-                       
                         }
 
 })
 
-
-
-
-
-
-
-
-
-
-
-
 })
+
+
+
+
+
+
+
+
+
+
+
